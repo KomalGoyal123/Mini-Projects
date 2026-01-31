@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(199, 186, 210, 0.94);
+}
+.main{
+
+    background-color: antiquewhite;
+    width: 60%;
+    
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 8px 4px 6px rgba(23, 18, 18, 0.5);
+    padding: 40px;
+    
+    
+}
+
+h3{
+   
+    font-size: 30px;
+    font-weight: bold;
+    padding: 6px;
+    margin-left: 20px;
+}
+
+.main .contant{
+    display: flex;
+    flex-direction: column;
+}
+.main .contant .tabs{
+ background: rebeccapurple;
+ width: 50%;
+}
+
+.information{
+  background: red;
+}
